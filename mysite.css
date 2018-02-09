@@ -1,0 +1,271 @@
+*{
+	transition:all .3s;
+}
+body{
+	width:100%;
+	color:rgb(76,76,76);
+	margin:0;
+	font-family:times;
+	font-size:17px;
+}
+content{
+	font-weight:bold;
+}
+div#wrap{
+	margin:0 30px;
+}
+header{
+	width:100%;
+	float:left;
+	background-color:#000;
+	color:white;
+	box-sizing:border-box;
+	padding:20px 0;
+}
+nav{
+	width:100%;
+	float:Left;
+	background-color:#3B3B3B;
+	color:white;
+	box-shadow:0 2px 20px black;
+	margin-bottom:15px;
+}
+nav ul{
+	list-style-type:none;
+	padding:0px;
+	margin:0px;
+}
+nav ul li {
+	display:inline;
+	margin:0;
+}
+nav a {
+	font-weight:bold;
+	color:white;
+	font-size:17px;
+	text-decoration:none;
+	padding:15px 20px;
+	float:left;
+	border-bottom:3px solid #3B3B3B;
+}
+nav a:hover{
+	background-color:#046178;
+	border-bottom:3px solid #046178;
+}
+nav a#active{
+	border-bottom:3px solid #08C8F8;
+	background-color:#046178;
+}
+.col1-3,.col2-3,.col3-3{
+	width:33.3%;
+	padding:10px;
+	box-sizing:border-box;
+	float:left;
+}
+.col-wide{
+	width:75%;
+	padding:10px;
+	box-sizing:border-box;
+	float:Left;	
+	clear:both;
+}
+.col-full{
+	width:100%;
+	padding:10px;
+	box-sizing:border-box;
+	float:Left;	
+	clear:both;
+}
+.col-wide a{
+	color:#07A6CD;
+	text-decoration:none;
+	border-bottom:1px dotted #07A6CD;
+}
+.col-wide a:hover{
+	color:red;
+	border-bottom:1px solid red;
+}
+.col-wide a:active{
+	color:#BA1A1A;
+	border-bottom:1px solid #BA1A1A;
+}
+
+.col-side{
+	width:25%;
+	padding:0px;
+	box-sizing:border-box;
+	float:left;
+	background-color:#3B3B3B;
+	color:white;
+	margin:20px 0;
+	border-radius:5px 5px 0 0;
+	box-shadow:1px 1px 20px black;
+}
+.col-side h1{
+	padding:5px 10px;
+	margin:5px 0;
+	border-left:none;
+	color:#7FCDE5;
+	font-size:130%;
+}
+.col-side ul{
+	list-style:none;
+	margin:0;
+	padding:0px;
+}
+.col-side li{
+	padding:10px;
+}
+.col-side li:hover{
+	background-color:#046178;
+	border-left:5px solid #08C8F8;
+}
+.col-side li#active-aside{
+	background-color:#046178;
+	border-left:5px solid #08C8F8;
+}
+.col-side a{
+	color:white;
+	padding:0px;
+	text-decoration:none;
+}
+.col1-3 a,.col2-3 a,.col3-3 a{
+	color:white;
+	font-weight:bold;
+	box-sizing:border-box;
+	text-decoration:none;
+	background-color:#565656;
+	padding:10px;
+	width:100%;
+	float:left;
+	text-align:center;
+	border-radius:4px;
+}
+.col1-3 a:hover, .col2-3 a:hover, .col3-3 a:hover{
+	background-color:#29A7CD;
+}
+h1, h2, h3, h4, h5, h6{
+	color:#034555;
+	padding:5px;
+}
+h1, h2, h3{
+	border-left:8px solid #29A7CD;
+}
+.credit{
+	border-top:1px solid gray;
+	padding-top:5px;
+	text-align:right;
+	font-size:90%;
+	color:gray;
+}
+.img-100{
+	width:100%;
+}
+.img-50{
+	width:65%;
+}
+footer{
+	font-size:75%;
+	font-family:sans-serif;
+	width:100%;
+	float:left;
+	background-color:#262626;
+	color:white;
+	box-sizing:border-box;
+	margin:60px 0 0 0;
+	text-align:center;
+	box-shadow:0 -2px 20px black;
+}
+.about-col{
+	float:left;
+	box-sizing:border-box;
+	width:33.3%;
+	padding:5px;
+	font-weight:normal;
+	font-size:14px;
+	font-family:arial;
+	clear:right;
+	margin-bottom:15px;
+}
+.about-col-wide{
+	float:left;
+	margin-top:15px;
+	text-align:center;
+	width:100%;
+	box-sizing:border-box;
+	border-top:2px solid #D3D3D3;
+}
+.about-col-h{
+	text-align:center;
+	padding:0;
+}
+.mid {
+	text-align:center;
+}
+.post-detail {
+	border-top:2px solid #C2C2C2;
+	margin:0;padding:5px;
+	background: linear-gradient(to right, #C2C2C2 ,#E5E5E5);
+	font-family:arial;
+}
+.specialtext{
+	border:1px solid #CD8143;
+	padding:0 10px;
+	margin:0 15px;
+}
+.feature {
+	background-color:#3B3B3B;
+	color:white;
+	width:100%;
+	float:left;
+	padding:0 0 0 15px;
+}
+.feature h1 {
+	color:white;
+}
+/*-----------------------------
+@media only screen and (max-width:800px) {
+	.col1-3,.col2-3,.col3-3,.col-side,.col-wide{
+		width:35%;
+		padding:10px;
+	}
+	div#wrap{
+		margin:0 10px;
+	}
+	.col-wide{
+		width:65%;
+	}
+	.img-50{
+		width:100%;
+	}
+	.about-col{
+		width:50%;
+		padding:5px;
+	}
+}--------*/
+
+@media only screen and (max-width: 768px) {
+
+	.col1-3,.col2-3,.col3-3,.col-side,.col-wide{
+		width:100%;
+		padding:5px 5px 15px 5px;
+		border-bottom:1px dotted gray;
+	}
+	.col-side{
+		padding:0;
+	}
+	div#wrap{
+		margin:0 10px;
+	}
+	.img-50{
+	width:100%;
+	}
+	.about-col{
+	width:100%;
+	padding:5px;
+	}
+	.feature {
+	box-sizing:border-box;
+	padding:10px;
+	}
+}
